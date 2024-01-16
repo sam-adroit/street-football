@@ -31,14 +31,6 @@ const router = createRouter({
       path: '/teams/view/:type/:playerPerTeam',
       name: 'team-selection',
       component: TeamSelectionView,
-    },
-    {
-      path: '/about',
-      name: 'about',
-      // route level code-splitting
-      // this generates a separate chunk (About.[hash].js) for this route
-      // which is lazy-loaded when the route is visited.
-      component: () => import('../views/AboutView.vue')
     }
   ]
 })
