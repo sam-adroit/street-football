@@ -1,0 +1,13 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: normal;
+}
+
+body{
+    font-family: 'Press Start 2P', system-ui;
+    color: white;
+    background: url("../assets/arc-bg.jpg");
+}
